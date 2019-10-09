@@ -25,8 +25,11 @@ body {
   position: relative;
 }
 
+a .castingButton {
+  position: absolute;
+}
+
 .castingCard {
-  margin-top: 50px;
   display: block;
   width: 200px;
   height: 300px;
@@ -37,25 +40,34 @@ body {
 }
 
 .castingCard:nth-child(1) {
-  left: 250px;
+  left: 150px;
+  transform: rotate(5deg);
 }
 
 .castingCard:nth-child(2) {
-  left: 350px;
+  left: 525px;
+  transform: rotate(-3deg);
 }
 
 .castingCard:nth-child(3) {
-  left: 450px;
+  left: 750px;
+  transform: rotate(5deg);
 }
 
 .castingCard:nth-child(4) {
-  left: 550px;
+  left: 250px;
+  top : 320px;
+  transform: rotate(-4deg);
 }
 
 .castingCard:nth-child(5) {
-  left: 650px;
+  left: 450px;
+  top : 320px;
+  transform: rotate(5deg);
 }
 
 .castingCard:nth-child(6) {
-  left: 750px;
+  left: 815px;
+  top : 320px;
+  transform: rotate(-2deg);
 }
