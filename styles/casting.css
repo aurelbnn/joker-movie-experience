@@ -80,5 +80,6 @@ a .castingButton {
   height : 450px;
   left : 1150px;
   top: 150px;
+  border-radius: 10px;
   /*visibility: hidden;*/
 }
