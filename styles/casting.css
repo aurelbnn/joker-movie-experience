@@ -91,12 +91,8 @@ a .castingButton {
   left : 1150px;
   top: 150px;
   border-radius: 10px;
-  opacity: 0;
+  visibility: hidden;
   transition: transform 1s;
-}
-
-.castingCard:nth-child(1):hover .zoomCardImg:nth-child(1) {
-  opacity: 1;
 }
 
 .legalPart {
