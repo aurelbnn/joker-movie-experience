@@ -1,0 +1,58 @@
+body {
+  background-image: url("../images/background_homepage.png");
+  margin:0;
+  max-width:100%;
+  max-height:100%;
+  height: auto;
+  background-size: 1600px auto;
+  display: flex;
+  font-family: 'Anton', sans-serif;
+  font-size: 21px;
+}
+
+.container{
+  margin: 0 auto;
+  text-align: center;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.title{
+  color: #950606;
+}
+
+.title h1{
+  font-size: 140px;
+
+}
+
+.title h3{
+  text-transform: uppercase;
+  margin-top: -115px;
+  font-size: 35px;
+  margin-bottom: 160px;
+}
+
+
+.white a{
+  color: #FFF;
+}
+
+a:hover{
+  color: #950606;
+}
+
+.experience a{
+  background-color: #1E1D1D;
+  padding: 8px 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 31px;
+}
+
+.websiteAccess{
+  margin-top: 30px;
+}
