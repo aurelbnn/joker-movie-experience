@@ -73,7 +73,7 @@ a .castingButton {
   transform: rotate(-2deg);
 }
 
-.info {
+.zoomCard {
   position: absolute;
   background: red;
   width : 300px;
