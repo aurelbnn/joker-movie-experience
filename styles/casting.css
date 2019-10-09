@@ -32,55 +32,71 @@ a .castingButton {
 
 .castingCard {
   display: block;
-  width: 200px;
-  height: 300px;
   position: absolute;
+  transform-origin: center 700px;
+  perspective: 800px;
+}
+
+.castingCard .castingCardImg
+{
+  width: 190px;
+  height: 280px;
   border-radius: 10px;
   box-shadow: 1px 3px 0px rgba(0,0,0, 0.5);
-  transform-origin: center 700px;
+  transition: transform 1s;
+}
+
+.castingCard:hover .castingCardImg
+{
+  transform: rotateY(360deg);
 }
 
 .castingCard:nth-child(1) {
-  left: 150px;
+  left: 75px;
   transform: rotate(5deg);
 }
 
 .castingCard:nth-child(2) {
-  left: 525px;
+  left: 475px;
   transform: rotate(-3deg);
 }
 
 .castingCard:nth-child(3) {
-  left: 750px;
+  left: 735px;
   transform: rotate(5deg);
 }
 
 .castingCard:nth-child(4) {
-  left: 250px;
+  left: 150px;
   top : 320px;
   transform: rotate(-4deg);
 }
 
 .castingCard:nth-child(5) {
-  left: 450px;
+  left: 400px;
   top : 320px;
   transform: rotate(5deg);
 }
 
 .castingCard:nth-child(6) {
-  left: 815px;
+  left: 800px;
   top : 320px;
   transform: rotate(-2deg);
 }
 
-div.zoomCard img{
+.zoomCard .zoomCardImg{
   position: absolute;
   width : 300px;
   height : 450px;
   left : 1150px;
   top: 150px;
   border-radius: 10px;
-  visibility: visible;
+  opacity: 0;
+  transition: transform 1s;
+}
+
+.castingCard:nth-child(1):hover .zoomCardImg:nth-child(1) {
+  opacity: 1;
 }
 
 .legalPart {
