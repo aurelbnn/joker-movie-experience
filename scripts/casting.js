@@ -45,7 +45,8 @@ const sixthCardAnimation = TweenMax.to(sixthCard, 2, {
   paused: true,
 });
 
-const firstCardZoom = document.createElement("div");
+//const firstCardZoom = document.querySelector('.info').className='visible';
+
 
 // CARD ANIMATION AND ZOOM TO SEE COMPLETED INFORMATIONS
 // ANIMATION WITH MOUSEOVER TO ROTATE A CARD
