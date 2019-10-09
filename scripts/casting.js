@@ -38,7 +38,7 @@ const sixthCardAnimation = TweenMax.to(sixthCard, 2, {
   paused: true,
 });
 
-//const firstCardZoom = document.querySelector('.info').className='visible';
+//const firstCardZoom = document.querySelector('.zoomCard').className='visible';
 
 
 // CARD ANIMATION AND ZOOM TO SEE COMPLETED INFORMATIONS
