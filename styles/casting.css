@@ -73,13 +73,25 @@ a .castingButton {
   transform: rotate(-2deg);
 }
 
-.zoomCard {
+div.zoomCard img{
   position: absolute;
-  background: red;
   width : 300px;
   height : 450px;
   left : 1150px;
   top: 150px;
   border-radius: 10px;
-  /*visibility: hidden;*/
+  visibility: visible;
+}
+
+.legalPart {
+  right: 50px;
+  bottom: 2px;
+  position: absolute;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.5rem;
+}
+
+.legalPart a {
+  text-decoration: none;
+  color: white;
 }
