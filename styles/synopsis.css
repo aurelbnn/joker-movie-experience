@@ -10,15 +10,16 @@ body{
 
 img.fondRideau{
   width: 100%;
+  z-index: 0;
 }
 
 
 
 #joker{
   width: auto;
-  height: 900px;
+  height: 800px;
   margin-left: 3%;
-  margin-top: -14%;
+  margin-top: -6%;
   transition-property: transform;
   transition-duration: 1.5s;
   transition-timing-function: ease;
@@ -34,7 +35,8 @@ img.fondRideau{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: -50%;
+  margin-left: 1%;
+  margin-top: -3%;
 }
 
 .text{
@@ -42,7 +44,6 @@ img.fondRideau{
   width: 600px;
   height: 690px;
   margin-right: 5%;
-  margin-top: -5%;
   background-color: rgba(0, 35, 27, 0.8);
   border-radius: 5% 5% 0% 0%;
   transition-property: background-color;
@@ -58,22 +59,20 @@ img.fondRideau{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-top: -17%;
 }
 
 p{
   color: #d7d7d7;
-  font-size: 22px;
+  font-size: 24px;
   margin: auto;
   padding-left: 13%;
   padding-right: 13%;
   padding-bottom: 13%;
-  margin-top: -1%;
 }
 
-h1{
+h2{
   font-family: 'Anton', sans-serif;
-  font-size: 75px;
+  font-size: 35px;
   text-align: center;
   color: #FCFFA2;
 }
@@ -123,7 +122,6 @@ h1{
 .fleched{
   height: 4rem;
   width: 4rem;
-
 }
 
 .header{
@@ -132,10 +130,15 @@ h1{
   align-items: center;
   color:white;
   font-size: 2.5rem;
+  z-index: 5;
+  margin-top: -79%;
 }
 
 .header p{
-  margin: 0px;
+  padding-top: 14%;
+  margin: 0;
+  font-size: 120%;
+  color: #FCFFA2;
 }
 
 
@@ -156,11 +159,12 @@ h1{
   display: flex;
   align-items: center;
 }
+
 .fleche img{
   width: 70px;
 }
 
-a:hover{
+.fleche a:hover{
   color:#950606;
 }
 
