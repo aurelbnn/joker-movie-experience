@@ -174,7 +174,7 @@ body {
 .fleched{
   height: 4rem;
   width: 4rem;
-  
+
 }
 
 .header{
@@ -209,4 +209,12 @@ body {
 }
 .fleche img{
   width: 70px;
+}
+
+a:hover{
+  color:#950606;
+}
+
+a:visited{
+  color: white;
 }

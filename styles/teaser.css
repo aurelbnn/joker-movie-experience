@@ -94,7 +94,7 @@ body{
 .fleched{
   height: 4rem;
   width: 4rem;
-  
+
 }
 
 .header{
@@ -119,3 +119,15 @@ body{
   display: flex;
 }
 
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#950606;
+}
+
+a:visited{
+  color: white;
+}
