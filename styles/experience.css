@@ -12,6 +12,7 @@ body {
 }
 
 .firstPic{
+  margin-top: 9%;
   height: 580px;
   width: auto;
   display:block;
