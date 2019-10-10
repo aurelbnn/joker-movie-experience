@@ -10,16 +10,16 @@ body{
 
 img.fondRideau{
   width: 100%;
+  z-index: 0;
 }
 
 
 
 #joker{
-  z-index: 2;
   width: auto;
   height: 80%;
   margin-left: 3%;
-  margin-top: -14%;
+  margin-top: -6%;
   transition-property: transform;
   transition-duration: 1.5s;
   transition-timing-function: ease;
@@ -32,11 +32,11 @@ img.fondRideau{
 
 .synopsis{
   width: 100%;
-  z-index: 2;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: -50%;
+  margin-left: 1%;
+  margin-top: -3%;
 }
 
 .text{
@@ -44,7 +44,6 @@ img.fondRideau{
   width: 600px;
   height: 690px;
   margin-right: 5%;
-  margin-top: -5%;
   background-color: rgba(0, 35, 27, 0.8);
   border-radius: 5% 5% 0% 0%;
   transition-property: background-color;
@@ -60,22 +59,20 @@ img.fondRideau{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-top: -17%;
 }
 
 p{
   color: #d7d7d7;
-  font-size: 22px;
+  font-size: 24px;
   margin: auto;
   padding-left: 13%;
   padding-right: 13%;
   padding-bottom: 13%;
-  margin-top: -1%;
 }
 
-h1{
+h2{
   font-family: 'Anton', sans-serif;
-  font-size: 75px;
+  font-size: 35px;
   text-align: center;
   color: #FCFFA2;
 }
@@ -97,6 +94,11 @@ h1{
   color: white;
   text-align: center;
   font-family: "Futura", sans-serif;
+  font-size: 1.1rem;
+}
+
+.schoolProjetLaw{
+  margin-top: 1%;
 }
 
 .legalPart {
@@ -110,4 +112,62 @@ h1{
 
 .isOpen{
   display: block;
+}
+
+.flecheg{
+  height: 4rem;
+  width: 4rem;
+}
+
+.fleched{
+  height: 4rem;
+  width: 4rem;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+  font-size: 2.5rem;
+  z-index: 5;
+  margin-top: -79%;
+}
+
+.header p{
+  padding-top: 14%;
+  margin: 0;
+  font-size: 120%;
+  color: #FCFFA2;
+}
+
+
+.casting{
+  color:white;
+  font-size: 1.5rem;
+}
+
+.header .left, .header .right{
+  display: flex;
+}
+.fleche{
+  display: flex;
+  color:white;
+  font-size: 1.5rem;
+  width: 201px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+.fleche img{
+  width: 70px;
+}
+
+.fleche a:hover{
+  color:#950606;
+}
+
+a:visited{
+  color: white;
 }

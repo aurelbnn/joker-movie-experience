@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/background_homepage.png");
+  background-image: url("../images/background_homepage.jpg");
   margin:0;
   max-width:100%;
   max-height:100%;
@@ -62,8 +62,8 @@ a:hover{
 
 .menu{
   position: absolute;
+  right: -195%;
   top: 0;
-  right: -155%;
 }
 
 menu-deroulant#menu-deroulant, #menu-deroulant ul {
@@ -148,6 +148,7 @@ color:#fff;
   color: white;
   text-align: center;
   font-family: "Futura", sans-serif;
+  font-size: 1.1rem;
 }
 
 .legalPart {
