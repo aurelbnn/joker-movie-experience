@@ -43,9 +43,9 @@ img.fondRideau{
 .text{
   display: flex;
   width: 600px;
-  height: 620px;
+  height: 650px;
   margin-right: 5%;
-  margin-top: -9%;
+  margin-top: -8%;
   background-color: rgba(0, 35, 27, 0.8);
   border-radius: 5% 5% 0% 0%;
   transition-property: background-color;
@@ -54,24 +54,24 @@ img.fondRideau{
 }
 
 .text:hover{
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .titleAndText{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-top: -100px;
+  margin-top: -17%;
 }
 
 p{
   color: #d7d7d7;
   font-size: 22px;
   margin: auto;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-bottom: 80px;
-  margin-top: -1px;
+  padding-left: 13%;
+  padding-right: 13%;
+  padding-bottom: 13%;
+  margin-top: -1%;
 }
 
 h1{
