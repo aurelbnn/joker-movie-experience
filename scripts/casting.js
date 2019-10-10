@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 let castingCard1 = document.querySelector(".castingCard1")
 let castingCard2 = document.querySelector(".castingCard2")
 let castingCard3 = document.querySelector(".castingCard3")
@@ -76,13 +75,14 @@ castingCard6.addEventListener(
     "mouseout",function(){
         zoomedCard6.classList.remove("zoomedCard6A")
     }
-=======
+)
+
 let legalPart = document.querySelector(".legalPart")
 let legalContent = document.querySelector(".legalContent")
 let i = 0
 
 legalPart.addEventListener(
-  'click', function(){
+  'mouseover', function(){
     if (i == 0){
       legalContent.classList.add("isOpen")
       i++
@@ -92,5 +92,4 @@ legalPart.addEventListener(
       i--
     }
   }
->>>>>>> 5f80c6ddc9c197ae24cf5e3dd3d0464accc3a0c6
 )
