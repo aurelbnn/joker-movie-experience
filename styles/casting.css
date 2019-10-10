@@ -92,14 +92,18 @@ body {
     box-shadow: 1px 3px 0px rgba(0,0,0, 0.5);
 }
 
-.legalContent {
-  top: 80%;
+.legalContent{
+  left: 0;
+  top: 90%;
   position: absolute;
   width: 100%;
-  height: 20%;
+  height: 10%;
   background: rgba(10,10,10,0.8);
-  opacity: 0;
   transition: 1s;
+  display: none;
+  color: white;
+  text-align: center;
+  font-family: "Futura", sans-serif;
 }
 
 .legalPart {
@@ -111,6 +115,10 @@ body {
   color: white;
 }
 
-.legalPart:hover .legalContent {
-  opacity: 0.8;
+.isOpen{
+  display: block;
 }
+
+/* .legalPart:hover .legalContent{
+  display: block;
+} */
