@@ -72,8 +72,8 @@ body{
   width: 600px;
   height: 355px;
   background-size: 100% 100%;
-  top: -20px;
-  left: -20px;
+  top: 225px;
+  left: 500px;
   z-index: -1;
   background-image: url('../images/contour.png')
 }
