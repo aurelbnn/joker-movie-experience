@@ -27,14 +27,14 @@ img{
 }
 
 .title h1{
-  font-size: 135px;
+  font-size: 650%;
 
 }
 
 .title h3{
   text-transform: uppercase;
-  margin-top: -115px;
-  font-size: 35px;
+  margin-top: -34%;
+  font-size: 150%;
   margin-bottom: 160px;
 }
 
@@ -45,7 +45,7 @@ img{
 
 .access{
   color: #FFF;
-  font-size: 30px;
+  font-size: 170%;
 }
 
 a:hover{
@@ -57,7 +57,7 @@ a:hover{
   padding: 8px 50px;
   border-radius: 50px;
   text-decoration: none;
-  font-size: 32px;
+  font-size: 150%;
 }
 
 .menu{
@@ -82,7 +82,7 @@ menu-deroulant#menu-deroulant, #menu-deroulant ul {
     display: inherit;
 }
 #menu-deroulant a {
-  width: 130px;
+  width: 25%;
   text-decoration: none;
   display: block;
   padding:8px 32px;
@@ -103,7 +103,7 @@ menu-deroulant#menu-deroulant, #menu-deroulant ul {
   background-color: #257e78;
   color: #fff;
 }
-#, #menu-deroulant ul{
+#menu-deroulant ul{
 padding:0;
 margin:0;
 list-style:none;
