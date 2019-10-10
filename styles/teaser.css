@@ -31,9 +31,14 @@ body{
   align-items: center;
   min-height: 70vh;
 }
-.videobandeannonce section{
+.videobandeannonce .section{
   position: relative;
 }
+
+.iframe{
+  border: 0;
+}
+
 .container{
   position: relative;
 }

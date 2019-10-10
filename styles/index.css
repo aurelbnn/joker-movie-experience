@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/background_homepage.png");
+  background-image: url("../images/background_homepage.jpg");
   margin:0;
   max-width:100%;
   max-height:100%;
@@ -57,13 +57,13 @@ a:hover{
   padding: 8px 50px;
   border-radius: 50px;
   text-decoration: none;
-  font-size: 160%;
+  font-size: 150%;
 }
 
 .menu{
   position: absolute;
+  right: -195%;
   top: 0;
-  right: -155%;
 }
 
 menu-deroulant#menu-deroulant, #menu-deroulant ul {
@@ -82,7 +82,7 @@ menu-deroulant#menu-deroulant, #menu-deroulant ul {
     display: inherit;
 }
 #menu-deroulant a {
-  width: 130px;
+  width: 25%;
   text-decoration: none;
   display: block;
   padding:8px 32px;
@@ -103,7 +103,7 @@ menu-deroulant#menu-deroulant, #menu-deroulant ul {
   background-color: #257e78;
   color: #fff;
 }
-#, #menu-deroulant ul{
+#menu-deroulant ul{
 padding:0;
 margin:0;
 list-style:none;
@@ -130,4 +130,36 @@ text-transform:inherit;
 }
 #menu-deroulant li:not(:first-child):hover a, #menu-deroulant li li:not(:first-child):hover a{
 color:#fff;
+}
+
+.legalContent {
+  top: 80%;
+}
+
+.legalContent{
+  left: 0;
+  top: 90%;
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  background: rgba(10,10,10,0.7);
+  transition: 1s;
+  display: none;
+  color: white;
+  text-align: center;
+  font-family: "Futura", sans-serif;
+  font-size: 1.1rem;
+}
+
+.legalPart {
+  right: 2%;
+  bottom: 2%;
+  position: absolute;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.isOpen{
+  display: block;
 }

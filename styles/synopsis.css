@@ -1,59 +1,74 @@
 body{
   margin: 0 auto;
+  padding:0;
   width: 100%;
   height: 100%;
   font-family: "Futura", sans-serif;
   overflow-y: hidden;
 }
 
+
 img.fondRideau{
   width: 100%;
 }
 
-.container{
-}
+
 
 #joker{
-  z-index: 2;
   width: auto;
   height: 900px;
-  margin-left: 40px;
-  margin-top: -130px;
+  margin-left: 3%;
+  margin-top: -14%;
+  transition-property: transform;
+  transition-duration: 1.5s;
+  transition-timing-function: ease;
 }
+
+#joker:hover{
+  transform: translate(50px);
+}
+
+
 .synopsis{
   width: 100%;
-  z-index: 4;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: -720px;
+  margin-top: -50%;
 }
 
 .text{
   display: flex;
   width: 600px;
-  height: 605px;
-  margin-right: 40px;
-  margin-top: -25px;
+  height: 690px;
+  margin-right: 5%;
+  margin-top: -5%;
   background-color: rgba(0, 35, 27, 0.8);
   border-radius: 5% 5% 0% 0%;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-delay: 0.2s;
+}
+
+.text:hover{
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .titleAndText{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-top: -100px;
+  margin-top: -17%;
 }
 
 p{
   color: #d7d7d7;
   font-size: 22px;
   margin: auto;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-bottom: 80px;
-  margin-top: -1px;
+  padding-left: 13%;
+  padding-right: 13%;
+  padding-bottom: 13%;
+  margin-top: -1%;
 }
 
 h1{
@@ -61,4 +76,41 @@ h1{
   font-size: 75px;
   text-align: center;
   color: #FCFFA2;
+}
+
+
+.legalContent {
+  top: 80%;
+}
+
+.legalContent{
+  left: 0;
+  top: 90%;
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  background: rgba(10,10,10,0.7);
+  transition: 1s;
+  display: none;
+  color: white;
+  text-align: center;
+  font-family: "Futura", sans-serif;
+  font-size: 1.1rem;
+}
+
+.schoolProjetLaw{
+  margin-top: 1%;
+}
+
+.legalPart {
+  right: 2%;
+  bottom: 2%;
+  position: absolute;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.isOpen{
+  display: block;
 }
