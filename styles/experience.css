@@ -1,0 +1,21 @@
+body {
+  background-image: url("../images/rain_background.jpg");
+  margin:0;
+  max-width:100%;
+  max-height:100%;
+  height: auto;
+  background-size: 100% auto;
+  display: flex;
+  font-family: 'Anton', sans-serif;
+  font-size: 21px;
+  overflow-x: hidden;
+}
+
+.firstPic{
+  height: 580px;
+  width: auto;
+  display:block;
+  width:auto;
+  margin-left:auto;
+  margin-right:auto;
+}
