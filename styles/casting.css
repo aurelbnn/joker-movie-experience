@@ -26,12 +26,7 @@ body {
   position: relative;
 }
 
-a .castingButton {
-  position: absolute;
-}
-
 .castingCard {
-  display: block;
   position: absolute;
   transform-origin: center 700px;
   perspective: 800px;
@@ -39,8 +34,8 @@ a .castingButton {
 
 .castingCard .castingCardImg
 {
-  width: 190px;
-  height: 280px;
+  width: 90%;
+  height: 85%;
   border-radius: 10px;
   box-shadow: 1px 3px 0px rgba(0,0,0, 0.5);
   transition: transform 1s;
@@ -52,61 +47,70 @@ a .castingButton {
 }
 
 .castingCard:nth-child(1) {
-  left: 75px;
+  left: 5%;
   transform: rotate(5deg);
 }
 
 .castingCard:nth-child(2) {
-  left: 475px;
+  left: 30%;
   transform: rotate(-3deg);
 }
 
 .castingCard:nth-child(3) {
-  left: 735px;
+  left: 48%;
   transform: rotate(5deg);
 }
 
 .castingCard:nth-child(4) {
-  left: 150px;
+  left: 10%;
   top : 320px;
   transform: rotate(-4deg);
 }
 
 .castingCard:nth-child(5) {
-  left: 400px;
+  left: 25%;
   top : 320px;
   transform: rotate(5deg);
 }
 
 .castingCard:nth-child(6) {
-  left: 800px;
-  top : 320px;
+  left: 52%;
+  top: 320px;;
   transform: rotate(-2deg);
 }
 
 .zoomCard {
   position: absolute;
-  width: 300px;
-  height: 450px;
-  top: 190px;
-  left: 1100px;
+  width: 10%;
+  height: 20%;
+  top: 25%;
+  left: 70%;
 }
 
 .zoomCardImg {
     border-radius: 10px;
     box-shadow: 1px 3px 0px rgba(0,0,0, 0.5);
-    display: none;
+}
+
+.legalContent {
+  top: 80%;
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  background: rgba(10,10,10,0.8);
+  opacity: 0;
+  transition: 1s;
 }
 
 .legalPart {
-  right: 50px;
-  bottom: 2px;
+  right: 2%;
+  bottom: 2%;
   position: absolute;
   font-family: 'Permanent Marker', cursive;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  color: white;
 }
 
-.legalPart a {
-  text-decoration: none;
-  color: white;
+.legalPart:hover .legalContent {
+  opacity: 0.8;
 }
