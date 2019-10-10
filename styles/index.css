@@ -57,7 +57,7 @@ a:hover{
   padding: 8px 50px;
   border-radius: 50px;
   text-decoration: none;
-  font-size: 160%;
+  font-size: 150%;
 }
 
 .menu{
@@ -82,7 +82,7 @@ menu-deroulant#menu-deroulant, #menu-deroulant ul {
     display: inherit;
 }
 #menu-deroulant a {
-  width: 130px;
+  width: 25%;
   text-decoration: none;
   display: block;
   padding:8px 32px;
