@@ -9,20 +9,11 @@ const container = document.querySelector('.container'),
       zoomedSixthCard = document.querySelector('#zoomed_brett_cullen')
 
 
-
-const zoomedFirstCardAnimation = TweenMax.to(firstCard, 2, {
-  visibility: visible;
-
-const secondCardAnimation = TweenMax.to(secondCard, 2, {
-  rotationY: 360,
-  paused: true,
-});
-
 fonction testingit() {
-  
+
 }
 
 
-test.addEventListener('click', function() {
+test.addEventListener('mouseover', function() {
 
 });

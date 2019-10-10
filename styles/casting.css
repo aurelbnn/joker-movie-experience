@@ -84,6 +84,20 @@ a .castingButton {
   transform: rotate(-2deg);
 }
 
+.zoomCard {
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  top: 190px;
+  left: 1100px;
+}
+
+.zoomCardImg {
+    border-radius: 10px;
+    box-shadow: 1px 3px 0px rgba(0,0,0, 0.5);
+    display: none;
+}
+
 .legalPart {
   right: 50px;
   bottom: 2px;
