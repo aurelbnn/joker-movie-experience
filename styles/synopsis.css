@@ -17,7 +17,7 @@ img.fondRideau{
 #joker{
   z-index: 2;
   width: auto;
-  height: 900px;
+  height: 80%;
   margin-left: 3%;
   margin-top: -14%;
   transition-property: transform;
