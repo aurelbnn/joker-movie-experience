@@ -1,7 +1,7 @@
 body{
   margin: 0px;
   padding: 0px;
-  font-family: "Anton";
+  font-family: "Permanent Market";
   font-size: 16px;
   color: #444;
   background-image: url('../images/murdefond.png');
@@ -12,31 +12,42 @@ body{
   min-height: 100vh;
   height: 100%;
 }
- .bandeannonce{
-  color : #FAE898;
+.bandeannonce{
+  color : white;
   font-style: bold;
-  font-size: 30px;
+  font-size: 2rem;
   text-decoration: underline;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   position : absolute;
   font-size: 40px;
-  top: -300px;
-  left: -300px;
+  top: -340px;
+  left: 155px;
 }
 .videobandeannonce{
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 70vh;
 }
 .videobandeannonce section{
   position: relative;
 }
 .container{
   position: relative;
+}
+.fleche{
+  display: flex;
+  color:white;
+  font-size: 1.5rem;
+  width: 201px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+.fleche img{
+  width: 70px;
 }
 
 .punchline{
@@ -49,14 +60,15 @@ min-height: 100vh;
   text-shadow: 8px 8px 0px #FAE898;
 }
 
-.videobandeannonce:before {
+.videoiframe:before {
   content: "";
   display: block;
   position: absolute;
   width: 600px;
   height: 355px;
   background-size: 100% 100%;
-  top: 275px;
+  top: -20px;
+  left: -20px;
   z-index: -1;
   background-image: url('../images/contour.png')
 }
@@ -64,3 +76,41 @@ min-height: 100vh;
 .punchline :nth-child(2) {
   font-size: 60px;
 }
+
+.punchline p {
+  margin: 0px;
+}
+
+.flecheg{
+  height: 4rem;
+  width: 4rem;
+}
+
+.fleched{
+  height: 4rem;
+  width: 4rem;
+  
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+  font-size: 2.5rem;
+}
+
+.header p{
+  margin: 0px;
+}
+
+
+.casting{
+  color:white;
+  font-size: 1.5rem;
+}
+
+.header .left, .header .right{
+  display: flex;
+}
+
