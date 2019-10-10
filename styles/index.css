@@ -62,8 +62,8 @@ a:hover{
 
 .menu{
   position: absolute;
-  top: 5px;
-  right: -650px;
+  top: 0;
+  right: -195%;
 }
 
 menu-deroulant#menu-deroulant, #menu-deroulant ul {
