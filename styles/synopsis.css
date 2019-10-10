@@ -8,7 +8,6 @@ body{
 
 img.fondRideau{
   width: 100%;
-  margin-top: -186px;
 }
 
 .container{
@@ -16,10 +15,10 @@ img.fondRideau{
 
 #joker{
   z-index: 2;
-  margin-top: -177px;
   width: auto;
-  height: 603px;
+  height: 900px;
   margin-left: 40px;
+  margin-top: -130px;
 }
 .synopsis{
   width: 100%;
@@ -27,16 +26,16 @@ img.fondRideau{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: -580px;
+  margin-top: -720px;
 }
 
 .text{
   display: flex;
   width: 600px;
-  height: 550px;
-  margin-top: -104px;
+  height: 605px;
   margin-right: 40px;
-  background-color: rgba(0, 34, 61, 0.8);
+  margin-top: -25px;
+  background-color: rgba(0, 35, 27, 0.8);
   border-radius: 5% 5% 0% 0%;
 }
 
@@ -44,12 +43,12 @@ img.fondRideau{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-top: -95px;
+  margin-top: -100px;
 }
 
 p{
   color: #d7d7d7;
-  font-size: 21px;
+  font-size: 22px;
   margin: auto;
   padding-left: 80px;
   padding-right: 80px;
