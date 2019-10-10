@@ -14,7 +14,7 @@ body{
 }
  .bandeannonce{
   color : #FAE898;
-  font-style: bold;
+  font-weight: bold;
   font-size: 30px;
   text-decoration: underline;
   display: flex;
@@ -32,9 +32,14 @@ flex-direction: column;
 align-items: center;
 min-height: 100vh;
 }
-.videobandeannonce section{
+.videobandeannonce .section{
   position: relative;
 }
+
+.iframe{
+  border: 0;
+}
+
 .container{
   position: relative;
 }
