@@ -15,7 +15,6 @@ img.fondRideau{
 
 
 #joker{
-  z-index: 2;
   width: auto;
   height: 900px;
   margin-left: 3%;
@@ -32,7 +31,6 @@ img.fondRideau{
 
 .synopsis{
   width: 100%;
-  z-index: 2;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -99,12 +97,16 @@ h1{
   font-family: "Futura", sans-serif;
 }
 
+.schoolProjetLaw{
+  margin-top: 1%;
+}
+
 .legalPart {
   right: 2%;
   bottom: 2%;
   position: absolute;
   font-family: 'Permanent Marker', cursive;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
 }
 
