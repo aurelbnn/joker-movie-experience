@@ -1,5 +1,4 @@
 body {
-  background-image: url("../images/rain_background.jpg");
   margin:0;
   height: 4000px;
   background-size: 100% auto;
@@ -16,6 +15,36 @@ body {
   display:block;
   margin-left:auto;
   margin-right:auto;
+}
+
+.back{
+  margin:0;
+  background-size: 100% auto;
+  height: 100vh;
+}
+
+.bg1{
+  background-image: url("../images/back1.jpg");
+}
+
+.bg2{
+  background-image: url("../images/back2.jpg");
+}
+
+.bg3{
+  background-image: url("../images/back3.jpg");
+}
+
+.bg4{
+  background-image: url("../images/back4.jpg");
+}
+
+.bg5{
+  background-image: url("../images/back5.jpg");
+}
+
+.bg6{
+  background-image: url("../images/back6.jpg");
 }
 
 .legalContent {
