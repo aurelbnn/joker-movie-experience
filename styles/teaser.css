@@ -83,16 +83,18 @@ HEADER !
 MAIN !
 */
 
+.container{
+  position: relative;
+}
+
 .bandeannonce{
   color : white;
   font-style: bold;
   font-size: 2rem;
   text-decoration: underline;
-  display: flex;
-  justify-content: center;
   position : absolute;
   font-size: 40px;
-  top: -340px;
+  top: 4;
   left: 155px;
 }
 .videobandeannonce{
@@ -102,32 +104,18 @@ MAIN !
   align-items: center;
   min-height: 70vh;
 }
-.videobandeannonce .section{
+.videobandeannonce {
   position: relative;
+  top: 20%;
+  height: 60%;
 }
 
 .iframe{
   border: 0;
 }
 
-.container{
-  position: relative;
-}
-.fleche{
-  display: flex;
-  color:white;
-  font-size: 1.5rem;
-  width: 201px;
-  justify-content: space-around;
-  display: flex;
-  align-items: center;
-}
-.fleche img{
-  width: 70px;
-}
-
 .punchline{
-  position: relative;
+  position: absolute;
   top: 60px;
   color: #9D3636;
   text-align: center;
@@ -138,15 +126,18 @@ MAIN !
 
 .videoiframe:before {
   content: "";
-  display: block;
   position: absolute;
-  width: 600px;
-  height: 355px;
+  height: 70%;
+  width: 40%;
   background-size: 100% 100%;
-  top: 225px;
-  left: 500px;
   z-index: -1;
   background-image: url('../images/contour.png')
+}
+
+.videoiframe {
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
 .punchline :nth-child(2) {
@@ -157,38 +148,11 @@ MAIN !
   margin: 0px;
 }
 
-.flecheg{
-  height: 4rem;
-  width: 4rem;
-}
 
-.fleched{
-  height: 4rem;
-  width: 4rem;
+/*
+FOOTER !
+*/
 
-}
-
-.header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color:white;
-  font-size: 2.5rem;
-}
-
-.header p{
-  margin: 0px;
-}
-
-
-.casting{
-  color:white;
-  font-size: 1.5rem;
-}
-
-.header .left, .header .right{
-  display: flex;
-}
 
 a{
   color: white;
