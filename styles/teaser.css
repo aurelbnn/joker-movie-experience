@@ -11,6 +11,7 @@ body{
   background-repeat: no-repeat;
   min-height: 100vh;
   height: 100%;
+  overflow: hidden;
 }
 
 
@@ -94,8 +95,6 @@ MAIN !
   text-decoration: underline;
   position : absolute;
   font-size: 40px;
-  top: 4;
-  left: 155px;
 }
 .videobandeannonce{
   display: flex;
@@ -103,6 +102,8 @@ MAIN !
   flex-direction: column;
   align-items: center;
   min-height: 70vh;
+  margin-left: 4%;
+  margin-top: 2%;
 }
 .videobandeannonce {
   position: relative;
@@ -116,7 +117,8 @@ MAIN !
 
 .punchline{
   position: absolute;
-  top: 60px;
+  margin-top: 18%;
+  left: 27%;
   color: #9D3636;
   text-align: center;
   font-size: 30px;
@@ -124,22 +126,12 @@ MAIN !
   text-shadow: 8px 8px 0px #FAE898;
 }
 
-.videoiframe:before {
-  content: "";
-  position: absolute;
-  height: 70%;
-  width: 40%;
-  background-size: 100% 100%;
-  top: 150px;
-  left: 485px;
-  z-index: -1;
-  background-image: url('../images/contour.png')
-}
-
 .videoiframe {
   position: absolute;
   height: 100%;
   width: 100%;
+  top: 30%;
+  left: 30%;
 }
 
 .punchline :nth-child(2) {
