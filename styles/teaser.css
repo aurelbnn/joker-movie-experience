@@ -11,6 +11,7 @@ body{
   background-repeat: no-repeat;
   min-height: 100vh;
   height: 100%;
+  overflow: hidden;
 }
 
 
@@ -83,13 +84,15 @@ HEADER !
 MAIN !
 */
 
+.container{
+  position: relative;
+}
+
 .bandeannonce{
   color : white;
   font-style: bold;
   font-size: 2rem;
   text-decoration: underline;
-  display: flex;
-  justify-content: center;
   position : absolute;
   font-size: 40px;
 }
@@ -102,33 +105,20 @@ MAIN !
   margin-left: 4%;
   margin-top: 2%;
 }
-.videobandeannonce .section{
+.videobandeannonce {
   position: relative;
+  top: 20%;
+  height: 60%;
 }
 
 .iframe{
   border: 0;
 }
 
-.container{
-  position: relative;
-}
-.fleche{
-  display: flex;
-  color:white;
-  font-size: 1.5rem;
-  width: 201px;
-  justify-content: space-around;
-  display: flex;
-  align-items: center;
-}
-.fleche img{
-  width: 70px;
-}
-
 .punchline{
-  position: relative;
-  top: 60px;
+  position: absolute;
+  margin-top: 18%;
+  left: 27%;
   color: #9D3636;
   text-align: center;
   font-size: 30px;
@@ -136,6 +126,13 @@ MAIN !
   text-shadow: 8px 8px 0px #FAE898;
 }
 
+.videoiframe {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 30%;
+  left: 30%;
+}
 
 .punchline :nth-child(2) {
   font-size: 60px;
@@ -145,38 +142,11 @@ MAIN !
   margin: 0px;
 }
 
-.flecheg{
-  height: 4rem;
-  width: 4rem;
-}
 
-.fleched{
-  height: 4rem;
-  width: 4rem;
+/*
+FOOTER !
+*/
 
-}
-
-.header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color:white;
-  font-size: 2.5rem;
-}
-
-.header p{
-  margin: 0px;
-}
-
-
-.casting{
-  color:white;
-  font-size: 1.5rem;
-}
-
-.header .left, .header .right{
-  display: flex;
-}
 
 a{
   color: white;
