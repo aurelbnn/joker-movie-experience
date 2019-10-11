@@ -143,8 +143,8 @@ MAIN !
   width: 600px;
   height: 355px;
   background-size: 100% 100%;
-  top: 225px;
-  left: 500px;
+  top: 150px;
+  left: 485px;
   z-index: -1;
   background-image: url('../images/contour.png')
 }
