@@ -1,7 +1,7 @@
 body{
   margin: 0px;
   padding: 0px;
-  font-family: "Permanent Market";
+  font-family: "Permanent Market", sans-serif;
   font-size: 16px;
   color: #444;
   background-image: url('../images/murdefond.png');
