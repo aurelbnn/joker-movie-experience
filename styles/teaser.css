@@ -1,7 +1,7 @@
 body{
   margin: 0px;
   padding: 0px;
-  font-family: "Permanent Market";
+  font-family: "Permanent Market", sans-serif;
   font-size: 16px;
   color: #444;
   background-image: url('../images/murdefond.png');
@@ -12,6 +12,77 @@ body{
   min-height: 100vh;
   height: 100%;
 }
+
+
+/*
+HEADER !
+*/
+
+.header{
+  position: relative;
+  color:white;
+  font-size: 2.5rem;
+}
+
+.arrow{
+  color:white;
+  font-size: 1.5rem;
+  width: 201px;
+}
+
+.arrowImg {
+  width: 50px;
+}
+
+.leftArrowImg{
+  position: absolute;
+  left: 1%;
+  top: 5%;
+}
+
+.castingTitle {
+  position: absolute;
+  left: 6%;
+  top: 7%;
+}
+
+.mainTitle, .title {
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.synopsisTitle {
+  position: absolute;
+  right: 7%;
+  top: 7%;
+}
+
+.rightArrowImg{
+  position: absolute;
+  right: 2%;
+  top: 5%;
+}
+
+.header{
+  position: relative;
+  color:white;
+  font-size: 2.5rem;
+}
+
+.header p{
+  margin: 0px;
+}
+
+.title:hover{
+  color:#950606;
+}
+
+/*
+MAIN !
+*/
+
 .bandeannonce{
   color : white;
   font-style: bold;
@@ -94,7 +165,7 @@ body{
 .fleched{
   height: 4rem;
   width: 4rem;
-  
+
 }
 
 .header{
@@ -119,3 +190,51 @@ body{
   display: flex;
 }
 
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#950606;
+}
+
+a:visited{
+  color: white;
+}
+
+.legalContent {
+  top: 80%;
+}
+
+.legalContent{
+  left: 0;
+  top: 90%;
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  background: rgba(10,10,10,0.7);
+  transition: 1s;
+  display: none;
+  color: white;
+  text-align: center;
+  font-family: "Futura", sans-serif;
+  font-size: 1.1rem;
+}
+
+.schoolProjetLaw{
+  margin-top: 1%;
+}
+
+.legalPart {
+  right: 2%;
+  bottom: 2%;
+  position: absolute;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.isOpen{
+  display: block;
+}
