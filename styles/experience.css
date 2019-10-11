@@ -96,6 +96,7 @@ background-color: #65c3bc
 color:#fff;
 text-transform:inherit;
 }
+
 #menu-deroulant li:not(:first-child):hover a, #menu-deroulant li li:not(:first-child):hover a{
 color:#fff;
 }
