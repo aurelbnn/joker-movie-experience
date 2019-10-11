@@ -1,3 +1,5 @@
+let body = document.querySelector("body")
+
 let opacityChange = $('.jokerApparition');
 $(window).on('scroll', function() {
    let st = $(this).scrollTop();
