@@ -99,18 +99,19 @@ MAIN !
 .text{
   width: 50%;
   height: 50%;
-  margin-top: 5%;
-  margin-left: 90%;
+  margin-top: 15%;
+  margin-left: 95%;
   background-color: rgba(0, 35, 27, 0.8);
   border-radius: 5% 5% 2% 2%;
   transition-property: background-color;
   transition-duration: 0.5s;
   transition-delay: 0.2s;
+
 }
 
 .jokerShowing {
   position: absolute;
-  left: 10%;
+  left: 15%;
 }
 
 .text:hover{
@@ -131,6 +132,8 @@ MAIN !
   transition-property: transform;
   transition-duration: 1.5s;
   transition-timing-function: ease;
+  margin-left: -13%;
+  margin-top: -12%;
 }
 
 #joker:hover{
