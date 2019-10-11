@@ -1,7 +1,16 @@
 body{
-  background: url('../images/fond_rideau.jpg');
   font-family: "Futura", sans-serif;
   overflow: hidden;
+}
+
+.background {
+  position: absolute;
+  width: 110%;
+  height: 110%;
+  top: -5%;
+  left: -5%;
+
+
 }
 
 
