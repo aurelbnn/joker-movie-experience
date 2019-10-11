@@ -36,7 +36,7 @@ img.fondRideau{
   flex-direction: row;
   justify-content: space-around;
   margin-left: 1%;
-  margin-top: -3%;
+  margin-top: -4%;
 }
 
 .text{
@@ -52,7 +52,7 @@ img.fondRideau{
 }
 
 .text:hover{
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .titleAndText{
@@ -70,12 +70,7 @@ p{
   padding-bottom: 13%;
 }
 
-h2{
-  font-family: 'Anton', sans-serif;
-  font-size: 35px;
-  text-align: center;
-  color: #FCFFA2;
-}
+
 
 
 .legalContent {
@@ -135,10 +130,11 @@ h2{
 }
 
 .header p{
-  padding-top: 14%;
+  padding-top: 13%;
   margin: 0;
   font-size: 120%;
   color: #FCFFA2;
+  font-family: 'Anton', sans-serif;
 }
 
 
@@ -151,21 +147,36 @@ h2{
   display: flex;
 }
 .fleche{
+  font-family: 'Anton', sans-serif;
   display: flex;
   color:white;
   font-size: 1.5rem;
   width: 201px;
+  height: 100px;
   justify-content: space-around;
   display: flex;
   align-items: center;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-delay: 0.1s;
+  border-radius: 0% 0% 20% 20%;
+}
+
+.fleche:hover{
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .fleche img{
   width: 70px;
+  color: white;
+}
+
+a{
+  text-decoration: none;
 }
 
 .fleche a:hover{
-  color:#950606;
+  color:#FCFFA2;
 }
 
 a:visited{
