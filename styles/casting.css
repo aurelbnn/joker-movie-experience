@@ -6,6 +6,83 @@ body {
   overflow-x: hidden;
 }
 
+
+
+/*
+HEADER !
+*/
+
+.header{
+  position: relative;
+  color:white;
+  font-size: 2.5rem;
+}
+
+.arrow{
+  color:white;
+  font-size: 1.5rem;
+  width: 201px;
+}
+
+.arrowImg {
+  width: 50px;
+}
+
+.leftArrowImg{
+  position: absolute;
+  left: 1%;
+  top: 5%;
+}
+
+.synopsisTitle {
+  position: absolute;
+  left: 6%;
+  top: 7%;
+}
+
+.mainTitle, .title {
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.teaserTitle {
+  position: absolute;
+  right: 7%;
+  top: 7%;
+}
+
+.rightArrowImg{
+  position: absolute;
+  right: 2%;
+  top: 5%;
+}
+
+.header{
+  position: relative;
+  color:white;
+  font-size: 2.5rem;
+}
+
+.header p{
+  margin: 0px;
+}
+
+.title:hover{
+  color:#950606;
+}
+
+
+/*
+MAIN !
+*/
+
+/*
+CARDS ANIMATION AND ZOOM TO SEE INFORMATIONS
+*/
+
+
 .container h2 {
   font-family: 'Permanent Marker', cursive;
   color: white;
@@ -134,9 +211,10 @@ body {
   background: url('../images/final_brett_cullen.png')
 }
 
-.legalContent {
-  top: 80%;
-}
+/*
+FOOTER !
+*/
+
 
 .legalContent{
   left: 0;
@@ -164,57 +242,4 @@ body {
 
 .isOpen{
   display: block;
-}
-
-.flecheg{
-  height: 4rem;
-  width: 4rem;
-}
-
-.fleched{
-  height: 4rem;
-  width: 4rem;
-
-}
-
-.header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color:white;
-  font-size: 2.5rem;
-}
-
-.header p{
-  margin: 0px;
-}
-
-
-.casting{
-  color:white;
-  font-size: 1.5rem;
-}
-
-.header .left, .header .right{
-  display: flex;
-}
-.fleche{
-  display: flex;
-  color:white;
-  font-size: 1.5rem;
-  width: 201px;
-  justify-content: space-around;
-  display: flex;
-  align-items: center;
-}
-.fleche img{
-  width: 70px;
-}
-
-a:hover{
-  color:#950606;
-}
-
-a:visited{
-  color: white;
 }
