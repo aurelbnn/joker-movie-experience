@@ -134,6 +134,7 @@ MAIN !
   transition-timing-function: ease;
   margin-left: -13%;
   margin-top: -12%;
+  z-index: 2;
 }
 
 #joker:hover{
