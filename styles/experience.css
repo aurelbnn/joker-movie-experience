@@ -4,6 +4,7 @@ body {
   background-size: 100% auto;
   font-family: 'Anton', sans-serif;
   font-size: 2.5rem;
+  position: relative;
 }
 
 .firstPic{
@@ -187,4 +188,46 @@ a:hover{
   opacity: 0,8;
   margin-left:auto;
   margin-right:auto;
+}
+
+.words{
+  position: absolute;
+  color: #950606;
+  position: fixed;
+  z-index: 3;
+}
+
+.word:nth-child(1){
+  font-size: 9rem;
+  margin-left: 60vw;
+  margin-top: 10vh;
+}
+
+.word:nth-child(2){
+  font-size: 10rem;
+  margin-left: 20vw;
+  margin-top: 60vh;
+}
+
+.word:nth-child(3){
+  font-size: 3rem;
+  margin-left: 27vw;
+  margin-top: 60vh;
+  z-index: 7;
+}
+
+.word:nth-child(4){
+  font-size: 6rem;
+}
+
+.word:nth-child(5){
+  font-size: 3rem;
+}
+
+.word:nth-child(6){
+  font-size: 7rem;
+}
+
+.word:nth-child(7){
+  font-size: 5rem;
 }
