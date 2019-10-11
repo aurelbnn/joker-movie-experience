@@ -136,18 +136,6 @@ MAIN !
   text-shadow: 8px 8px 0px #FAE898;
 }
 
-.videoiframe:before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 600px;
-  height: 355px;
-  background-size: 100% 100%;
-  top: 150px;
-  left: 485px;
-  z-index: -1;
-  background-image: url('../images/contour.png')
-}
 
 .punchline :nth-child(2) {
   font-size: 60px;
