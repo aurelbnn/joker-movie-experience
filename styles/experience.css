@@ -211,9 +211,8 @@ a:hover{
 
 .word:nth-child(3){
   font-size: 3rem;
-  margin-left: 27vw;
-  margin-top: 60vh;
-  z-index: 7;
+  margin-left: 14vw;
+  margin-top: 30vh;
 }
 
 .word:nth-child(4){
